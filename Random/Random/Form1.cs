@@ -28,6 +28,9 @@ namespace Random
             int num2 = int.Parse(textBox2.Text);
             if (num1 == num2)
             { MessageBox.Show("Los números son iguales!!"); }
+
+            else if(num1 < 0 || num2 < 0)
+                { MessageBox.Show("No se permiten números negativos!!"); }
             else{ 
                 int elegido = (rnd.Next(2) == 0) ? num1 : num2;
 
