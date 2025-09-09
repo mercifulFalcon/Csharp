@@ -29,14 +29,14 @@ namespace Escalera
                 {
                     for (int i = min; i <= max; i++)
                     {
-                        lstResultados.Items.Add(i.ToString());
+                        lstResultados.Items.Add(i.ToString("000"));
                     }
                 }
                 else if (min > max)
                 {
                     for (int i = min; i >= max; i--)
                     {
-                        lstResultados.Items.Add(i.ToString());
+                        lstResultados.Items.Add(i.ToString("000"));
                     }
                 }
                 else
