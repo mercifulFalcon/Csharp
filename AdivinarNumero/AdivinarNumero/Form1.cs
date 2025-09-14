@@ -26,7 +26,7 @@ namespace AdivinarNumero
         private void IniciarJuego()
         {
             numeroSecreto = random.Next(1,21);
-            //lblResultado.Text = "Adivina el número entre 1 y 20.";
+            
             txtNumero.Clear();  
             txtNumero.Focus();  
         }
